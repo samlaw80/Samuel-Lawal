@@ -1,8 +1,8 @@
 # Data Analytics Portfolio
-## Chocolate Sales Analysis Dashboard
+## Project 1
 
 **Title:**
-Chocolate Sales Dash
+Chocolate Sales Analysis Dashboard
 
 **Tools Used:**
 Excel, Power BI
