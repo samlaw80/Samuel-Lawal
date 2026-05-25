@@ -49,8 +49,17 @@ Sample sales Dashboard
 **Title:**
 Football Players
 
+**Sql Skills Used**
+
+Data Retrieval (SELECT): Queried and extracted specific information from the database.
+
+Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
+
+Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
+
+Data Source Specification (FROM): Specified the tables used as data sources for retrieval.
 
 **Sql Code:**
- [football players ddl & dml]
+ [football players ddl & dml](https://github.com/samlaw80/Samuel-Lawal/blob/main/footballplayers.sql)
 
 **Project Description:**
