@@ -47,9 +47,10 @@ Sample sales Dashboard
 ## Project 3
 
 **Title:**
+Football Players
 
 
-**Tools Used:**
- SQL
+**Sql Code:**
+ [football players ddl & dml]
 
 **Project Description:**
