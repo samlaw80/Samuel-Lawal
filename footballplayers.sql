@@ -5,53 +5,53 @@ WHERE [FIRST NAME] = 'sam'
 truncate table[dbo].[Football Players]
 	
 	Questions
---1	Write a query to find all the players in the "Arizona" team.
+--1	 query to find all the players in the "Arizona" team.
 SELECT*
 FROM [dbo].[Football Players]
 WHERE [TEAM] ='ARIZONA'
 
---2	Write a query to find all the players who play as a "WR" (Wide Receiver).
+--2	 query to find all the players who play as a "WR" (Wide Receiver).
 SELECT *
 FROM [dbo].[Football Players]
 WHERE [POSITION] LIKE 'WR'
 
---3	Write a query to list all players taller than 6 feet 2 inches.
+--3	 query to list all players taller than 6 feet 2 inches.
 SELECT *
 FROM [dbo].[Football Players]
 WHERE [HEIGHT] >= '6-2'
 ORDER BY [HEIGHT] ASC
 
---4	Write a query to find all players who attended the "Washington" college.
+--4	 query to find all players who attended the "Washington" college.
 SELECT *
 FROM [dbo].[Football Players]
 WHERE COLLEGE = 'WASHINGTON'
 
---5	Write a query to list players who are 25 years old or younger.
+--5	 query to list players who are 25 years old or younger.
 SELECT *
 FROM [dbo].[Football Players]
 WHERE AGE <= '25'
 
---6	Write a query to find all players with missing Age data.
+--6	 query to find all players with missing Age data.
 SELECT *
 FROM [dbo].[Football Players]
 WHERE AGE IS NULL
 
---7	Write a query to find players who are rookies (Exp = 'R').
+--7	 query to find players who are rookies (Exp = 'R').
 SELECT *
 FROM [dbo].[Football Players]
 WHERE EXPERIENCE LIKE 'R'
 
---8	Write a query to find the tallest player on the "New Orleans" team.
+--8	 query to find the tallest player on the "New Orleans" team.
 SELECT TOP(5)*
 FROM [dbo].[Football Players]
 WHERE TEAM = 'NEW ORLEANS'
 ORDER BY HEIGHT DESC
---9	Write a query to find players weighing more than 250 pounds.
+--9	 query to find players weighing more than 250 pounds.
 SELECT *
 FROM [dbo].[Football Players]
 WHERE WEIGHT >'250'
 ORDER BY WEIGHT DESC
---10	Write a query to calculate the average height of players at each position.
+--10	 query to calculate the average height of players at each position.
 SELECT POSITION, AVG([HT TOTAL]) AS [AVG HEIGHT]
 FROM [dbo].[Football Players]
 GROUP BY POSITION
@@ -61,7 +61,7 @@ ORDER BY [AVG HEIGHT] DESC
 --FROM [dbo].[Football players]
 --GROUP BY Position
 
---11	Write a query to find the heaviest player for each position.
+--11	 query to find the heaviest player for each position.
 SELECT * 
 	FROM
 		(SELECT *, ROW_NUMBER() OVER(PARTITION BY POSITION ORDER BY WEIGHT DESC) AS WEIGHT_RANK 
@@ -75,12 +75,12 @@ WHERE WEIGHT_RANK = 1
 --GROUP BY POSITION
 
 
---12	Write a query to rank players by age within their team. If two players have the same age, rank them by their weight.
+--12	 query to rank players by age within their team. If two players have the same age, rank them by their weight.
 SELECT *, RANK() 
 OVER (PARTITION BY TEAM ORDER BY AGE DESC, WEIGHT DESC) AS AGE_RANK
 FROM [dbo].[Football players]
 
---13	Write a query to calculate the average height (in inches) for all players older than 25 years.
+--13	 query to calculate the average height (in inches) for all players older than 25 years.
 SELECT AVG(CAST ([HT IN] AS FLOAT))
 FROM [dbo].[Football players]
 WHERE AGE > '25'
@@ -92,7 +92,7 @@ WHERE AGE > '25'
 SELECT*
 FROM[dbo].[Football Players]
 
---14	Write a query to find all players whose height is greater than the average height of their respective team.
+--14	 query to find all players whose height is greater than the average height of their respective team.
 SELECT * 
 	FROM(SELECT *, 
 		AVG([HT TOTAL]) OVER(PARTITION BY TEAM ) AS [TEAM AVG HEIGHT] 
@@ -101,7 +101,7 @@ SELECT *
 WHERE [HT TOTAL] > [TEAM AVG HEIGHT]
 ORDER BY TEAM, [HT TOTAL] DESC
 
---15	Write a query to find all players who share the same last name.
+--15	 query to find all players who share the same last name.
 SELECT *
 FROM [dbo].[Football players]
 WHERE [LAST NAME] IN(
@@ -112,7 +112,7 @@ WHERE [LAST NAME] IN(
 					)
 ORDER BY [LAST NAME]
 
---16	Write a query to find the players with the minimum height for each position.
+--16	 query to find the players with the minimum height for each position.
 -- WINDOWS FUNCTION METHOD ( WHERE 'SHORTEST' IS A SUBQUERY ALIAS/ TEMPORARY NICKNAME)
 SELECT *
 	FROM
@@ -132,7 +132,7 @@ SELECT *
 FROM CTE
 WHERE MIN_HGT = 1
 
---17	Write a query to get the number of players for each team grouped by their experience level.
+--17	 query to get the number of players for each team grouped by their experience level.
 SELECT  TEAM,
 		EXPERIENCE,
 		COUNT(*) AS [PLAYER COUNT]
@@ -159,7 +159,7 @@ GROUP BY TEAM,
 	END
 	ORDER BY TEAM, [PLAYER COUNT] DESC
 
---18	Write a query to find the tallest and shortest players from each college.
+--18	 query to find the tallest and shortest players from each college.
 WITH CTE AS (
 	SELECT COLLEGE, [PLAYER NAME],[HT TOTAL],
 	RANK() OVER (PARTITION BY COLLEGE ORDER BY [HT TOTAL] DESC) AS TALLEST,
@@ -176,7 +176,7 @@ WHERE TALLEST =1 OR SHORTEST = 1
 ORDER BY COLLEGE, STATUS DESC
 
 
---19	Write a query to find all players whose weight is above the average weight for their respective position.
+--19	 query to find all players whose weight is above the average weight for their respective position.
 WITH CTE AS(
 	SELECT TEAM,[PLAYER NAME],	POSITION,	[WEIGHT],	AGE, 	EXPERIENCE,
 	AVG(WEIGHT) OVER(PARTITION BY POSITION) AS [POSITION AVG WEIGHT]
@@ -187,7 +187,7 @@ FROM CTE
 WHERE WEIGHT > [POSITION AVG WEIGHT]
 ORDER BY POSITION ASC
 
---20	Write a query to calculate the percentage of players in each position for every team.
+--20	query to calculate the percentage of players in each position for every team.
 SELECT*
 FROM[dbo].[Football Players]
 
