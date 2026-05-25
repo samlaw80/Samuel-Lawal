@@ -21,7 +21,7 @@ Product: Drill down into the performance of individual chocolate products.
 
 **Key findings:**
 This dashboard provides a high-level performance summary for a business, likely in the food or confectionery industry, covering sales data across 2023 and 2024.Here is an overview of the key insights:
-1. Core FinancialsTotal Revenue: The "Sum of Amount" stands at 27.99M, generated from approximately 2M boxes sold. Monthly Trends: The line graph shows significant volatility. Revenue peaked in mid-2023 and early 2024, followed by a noticeable dip in late 2023 before rebounding.
+1. Core FinancialsTotal Revenue: The "Sum of Amount" stands at 27.99M, generated from approximately 2M boxes sold. The line graph shows significant volatility in monthly trends. Revenue peaked in mid-2023 and early 2024, followed by a noticeable dip in late 2023 before rebounding.
 2. Sales by Geography & PersonnelTop Markets: The UK is the leading region, contributing 27.36% (7.66M) of total sales. The USA follows closely at 22.43% (6.28M).Key Performers: Among the sales team, Roddy Speechley is the top contributor with 1.55M, followed by Wilone O'Kielt at 1.22M.
 3. Product PerformanceThe bar chart highlights a diverse product range with relatively balanced sales across top items:Best Sellers: Orange Choco (1.86M) and Drinking Coco (1.85M) are the highest-grossing products.Middle Tier: Specialty items like "Organic Choco Syrup" and "Peanut Butter Cubes" also perform strongly, staying above the 1.8M mark.Lower Tier: Products like "Almond Choco" and "Milk Bars" are at the bottom of the portfolio, contributing around 0.5M each.
 4. Regional Profitability: Identified the most profitable countries and highlighted regions where performance could be improved.
