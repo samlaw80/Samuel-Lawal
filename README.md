@@ -31,7 +31,7 @@ This dashboard provides a high-level performance summary for a business, likely 
 This dashboard serves as a crucial tool for the chocolate company’s management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
 
 **Dashboard Overview:**
-[Power BI dashboard.png]
+![Power BI dashboard.png](Power BI dashboard)
 
 
 ## Project 2
