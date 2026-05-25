@@ -31,7 +31,7 @@ This dashboard provides a high-level performance summary for a business, likely 
 This dashboard serves as a crucial tool for the chocolate company’s management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
 
 **Dashboard Overview:**
-![chocolate dashboard](chocolate.png)
+![Chocolate Dashboard](superstoredash.png)
 
 
 ## Project 2
@@ -45,7 +45,7 @@ This dashboard serves as a crucial tool for the chocolate company’s management
 **Project Description:**
 
 **Dashboard Overview:**
-![chocolate dashboard](chocolate.png)
+![Superstore Dashboard](chocolate.png)
 
 
 ## Project 3
