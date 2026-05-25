@@ -37,12 +37,16 @@ This dashboard serves as a crucial tool for the chocolate company’s management
 ## Project 2
 
 **Title:**
-Sample sales Dashboard
+[Sample sales Dashboard](https://github.com/samlaw80/Samuel-Lawal/blob/main/Dashboard%20sample_-_superstore.xlsx)
 
 **Tools Used:**
  Excel
 
 **Project Description:**
+
+**Dashboard Overview:**
+![chocolate dashboard](chocolate.png)
+
 
 ## Project 3
 
