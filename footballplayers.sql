@@ -4,7 +4,7 @@ WHERE [FIRST NAME] = 'sam'
 
 truncate table[dbo].[Football Players]
 	
-	Questions
+	Queries
 --1	 query to find all the players in the "Arizona" team.
 SELECT*
 FROM [dbo].[Football Players]
