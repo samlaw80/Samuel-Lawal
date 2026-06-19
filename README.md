@@ -43,6 +43,8 @@ This dashboard serves as a crucial tool for the chocolate company’s management
  Excel
 
 **Project Description:**
+This is an interactive Business Intelligence (BI) dashboard that analyze and visualize retail sales data for a nationwide "Super Store." The primary goal of this project was to transform raw transactional data into actionable insights, allowing stakeholders to monitor revenue trends, assess regional profitability, and evaluate the impact of pricing discounts on overall margins.
+I Successfully isolated underperforming regions by visualizing profit margins against gross sales, identifying specific areas where high revenue did not equal high profitability. Also i Exposed the specific product sub-categories driving the bulk of operational revenue, enabling more informed inventory management decisions.
 
 **Dashboard Overview:**
 ![Superstore Dashboard](superstoredash.png)
@@ -66,4 +68,4 @@ Data Source Specification (FROM): Specified the tables used as data sources for 
 **Sql Code:**
  [football players ddl & dml](https://github.com/samlaw80/Samuel-Lawal/blob/main/footballplayers.sql)
 
-**Project Description:**
+
