@@ -37,17 +37,15 @@ This dashboard serves as a crucial tool for the chocolate company’s management
 ## Project 2
 
 **Title:**
-[Data Professional Survey]
+[Data Professional Survey](https://github.com/samlaw80/Samuel-Lawal/blob/main/Data%20Survey%20Project.pbix)
 
-**Sql Skills Used**
+**Tools Used:**
+Power BI
 
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
+**Project Description:**
 
-Data Aggregation (SUM, COUNT): Calculated totals, such as sales and quantities, and counted records to analyze data trends.
-
-Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant data, including filtering by ranges and lists.
-
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval.
+**Dashboard Overview:**
+![data survey](Data Professional Survey.png)
 
 **Sql Code:**
  [football players ddl & dml](https://github.com/samlaw80/Samuel-Lawal/blob/main/footballplayers.sql)
@@ -58,7 +56,7 @@ Data Source Specification (FROM): Specified the tables used as data sources for 
 [Sample sales Dashboard](https://github.com/samlaw80/Samuel-Lawal/blob/main/Dashboard%20sample_-_superstore.xlsx)
 
 **Tools Used:**
- Power BI
+Power BI
 
 **Project Description:**
 This is an interactive Business Intelligence (BI) dashboard that analyze and visualize retail sales data for a nationwide "Super Store." The primary goal of this project was to transform raw transactional data into actionable insights, allowing stakeholders to monitor revenue trends, assess regional profitability, and evaluate the impact of pricing discounts on overall margins.
@@ -72,6 +70,9 @@ I Successfully isolated underperforming regions by visualizing profit margins ag
 
 **Title:**
 Football Players
+
+**Tools Used:**
+SQL
 
 **Sql Skills Used**
 
