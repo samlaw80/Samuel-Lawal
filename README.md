@@ -47,8 +47,7 @@ Power BI
 **Dashboard Overview:**
 ![data survey](Data Professional Survey.png)
 
-**Sql Code:**
- [football players ddl & dml](https://github.com/samlaw80/Samuel-Lawal/blob/main/footballplayers.sql)
+
  
 ## Project 3
 
