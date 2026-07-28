@@ -8,16 +8,7 @@
  Power BI
 
 **Project Description:**
-This project involved analysing chocolate sales data to identify trends and patterns in product sales across countries from 2023-2024. It is designed to provide a comprehensive overview of key performance metrics. This dashboard allows stakeholders to easily identify best selling and underperforming products, compare revenue and volume by salesperson, track sales patterns over time and analyze sales distribution by country/region. The dashboard includes the following features:
-
-Profit by Country and Chocolate: Visual representation of profits broken down by each country and type of chocolate.
-Total Units Sold per Month: A monthly breakdown of the total units sold, providing insights into sales trends over time.
-Profit by Month: Displays the monthly profit, allowing for easy comparison of profitability throughout the year.
-Total Revenue by Country: Highlights the total revenue generated in each country, showcasing the performance in different markets.
-Additionally, the dashboard includes interactive slicers and timeline for:
-Month: Filter the data to view performance for a specific month or range of months.
-Country: Focus on specific countries to analyze regional performance.
-Product: Drill down into the performance of individual chocolate products.
+This Chocolate Sales Analysis dashboard tracks 27.99 million in revenue and 2 million boxes sold across 2023 and 2024. A monthly line graph illustrates seasonal sales fluctuations, showing significant peak performance periods around mid-2023 and early 2024. Regional data highlights the UK as the top-performing market at 27.36%, closely followed by the USA at 22.43%. Product performance metrics rank Orange Choco, Drinking Coco, and 99% Dark & Pure as the highest revenue generators. Additionally, the individual sales performance table identifies Madelene Upcott as the highest-earning salesperson, bringing in over 2 million.
 
 **Key findings:**
 This dashboard provides a high-level performance summary for a business, likely in the food or confectionery industry, covering sales data across 2023 and 2024.Here is an overview of the key insights:
