@@ -28,7 +28,7 @@ This dashboard serves as a crucial tool for the chocolate company’s management
 ## Project 2
 
 **Title:**
-[Data Professional Survey](https://github.com/samlaw80/Samuel-Lawal/blob/main/Data%20Survey%20Project.pbix)
+[DataProfessionalSurvey](https://github.com/samlaw80/Samuel-Lawal/blob/main/Data%20Survey%20Project.pbix)
 
 **Tools Used:**
 Power BI
