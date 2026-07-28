@@ -43,6 +43,7 @@ This dashboard serves as a crucial tool for the chocolate company’s management
 Power BI
 
 **Project Description:**
+This dashboard displays a comprehensive breakdown of a survey collected from 630 data professionals with an average age of nearly 30. It illustrates demographic information including an even gender distribution, diverse global locations, and education levels dominated by Bachelor's and Master's degrees. Professionally, it highlights Python as the overwhelmingly preferred programming language and ranks average salaries by job title, placing Data Scientists at the top. Finally, it measures employee sentiment, revealing that respondents rate their work-life balance significantly higher than their satisfaction with their current salary.
 
 **Dashboard Overview:**
 ![data survey](Data Professional Survey.png)
