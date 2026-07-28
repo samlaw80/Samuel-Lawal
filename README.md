@@ -55,7 +55,7 @@ Power BI
 [Sample sales Dashboard](https://github.com/samlaw80/Samuel-Lawal/blob/main/Dashboard%20sample_-_superstore.xlsx)
 
 **Tools Used:**
-Power BI
+Excel
 
 **Project Description:**
 This is an interactive Business Intelligence (BI) dashboard that analyze and visualize retail sales data for a nationwide "Super Store." The primary goal of this project was to transform raw transactional data into actionable insights, allowing stakeholders to monitor revenue trends, assess regional profitability, and evaluate the impact of pricing discounts on overall margins.
